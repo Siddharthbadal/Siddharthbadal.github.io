@@ -201,3 +201,7 @@ li{
 .notes-anchor:hover{
     text-decoration: underline;
 }
+
+.notes-p{
+    font-size: 22px;
+}
