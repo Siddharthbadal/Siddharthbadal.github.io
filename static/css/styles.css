@@ -1,21 +1,24 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: rgb(28 25 23);
-
-    color: #212529;
+/*    background-color: rgb(28 25 23);*/
+    background-color: #232425;
+/*    color: #212529;*/
+    color: #6c7279;
 }
 
 a {
-    color: #212529;
+/*    color: #212529;*/
+    color: #6c7279;
     text-decoration: none;
 }
 
 a.muted {
-    color: #6c757d;
+    color: #6c757d;    
 }
 
 a:hover {
-    color: #ff7e67;
+/*    color: #ff7e67;*/
+    color: #fff;
     text-decoration: none;
 }
 
@@ -24,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-hr {
+/*hr {
     border-color: #eee;
     border-style: none;
     border-top-style: dotted;
@@ -32,7 +35,7 @@ hr {
     width: 15%;
     margin: 30px auto;
 }
-
+*/
 
 
 
@@ -59,19 +62,23 @@ hr {
 }
 
 .subheading {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .subheading-bio {
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 300;
 
 }
 .subheading-bio a{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:#fff;
     font-weight: bolder;
     text-decoration: underline;
+}
+.subheading-bio a:hover{
+   color:blue;
+   color: #6c7279;
 }
 
 /* Buttons */
@@ -131,39 +138,20 @@ hr {
     -webkit-box-shadow: none
 }
 
-/* Navbar */
-
-/*.brand {
-    font-family: 'Lobster', cursive;
-    font-weight: 800;
-    font-size: 2.2rem;
-    color: #ff7e67;
-}
-
-.button {
-    color: #ff7e67;
-}
-
-.nav-link {
-    font-size: 0.9rem;
-}
-
-.nav-link:hover {
-    color: #ff7e67;
-}*/
 
 /* Jumbotron */
 
-.jumbotron {
+/*.jumbotron {
     height: 400px;
     position: relative;
     background: no-repeat center center;
     background-color: rgb(28 25 23);
+    background-color: #232425;
     background-size: cover;
     background-attachment: scroll;
 }
-
-.jumbo-overlay {
+*/
+/*.jumbo-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -171,13 +159,14 @@ hr {
     width: 100%;
     background-color: rgb(28 25 23);
     opacity: 0.5;
-}
+}*/
 
 .jumbo-title {
     position: relative;
     margin-top: 20px;
     padding-top: 20px;
-    color: #fafafa;
+/*    color: #fafafa;*/
+    color: #6c7279;
 }
 
 .jumbo-subheader {
@@ -270,6 +259,12 @@ hr {
     font-style: italic;
 }
 
+.project-heading{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 /* Projects */
 .card-modal{
     cursor: pointer;
@@ -282,6 +277,8 @@ hr {
     background-color: RGB(38 38 38);
     color:#fff;
 }
+
+
 .card-footer{
     background-color:RGB(38 38 38);
 }
