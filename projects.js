@@ -25,7 +25,7 @@ export const projects=[
         'github':"https://github.com/Siddharthbadal"
     },
     {   
-        'image': 'images/socialmediaone.png',
+        'image': 'images/socialmediaOne.png',
         'title': 'Social Media Platform',
         'techs': ['tech1','tech2','tech3'],
         'tech': 'Django',
