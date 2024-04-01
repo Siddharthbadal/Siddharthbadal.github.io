@@ -1,7 +1,7 @@
 export const projects=[
 
     {   
-        'image': 'images/automateDjango.png',
+        'image': 'images/automate.png',
         'title': 'Data handling - Django Automation',
         'techs': ['tech1','tech2','tech3'],
         'tech': 'Django',
@@ -13,7 +13,7 @@ export const projects=[
         'title': 'Human Resource Management System',
         'techs': ['tech1','tech2','tech3'],
         'tech': 'Django',
-        'about': 'Full Stack project developed with django and bootstrap. Human Resource Management job portal to manage applications and candidates details, User registrations, forms and user validations, Custom Admin Panel, one to one chat and messages.',
+        'about': 'Full Stack project developed with django and bootstrap. Human Resource Management job portal to manage applications and candidates details with User registrations, forms and user validations, Custom Admin Panel, one to one chat and messages.',
         'github':"https://github.com/Siddharthbadal/Course-Registrar"
     },
     {   
@@ -21,7 +21,7 @@ export const projects=[
         'title': 'Command Line Interface App',
         'techs': ['tech1','tech2','tech3','tech4'],
         'tech': 'Python',
-        'about': 'Command Line Interface for Course Registrar is an interface built with python, mysql and typer where users can manage their students and courses data. Users can perform various operations like create, read, update, and delete on data. users start with setting up a database either by initializing the inbuilt dataset or can add his/her data.',
+        'about': 'Command Line Interface for Course Registrar is a project built with python, mysql and typer where users can manage their students and courses data. Users can perform various operations like create, read, update, and delete on data. users start with setting up a database either by initializing the inbuilt dataset or can add his/her data.',
         'github':"https://github.com/Siddharthbadal"
     },
     {   
