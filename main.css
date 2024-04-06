@@ -5,7 +5,9 @@ html, body{
 }
 
 body{
-    font-family: sans-serif;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .hero{
     background-color: #0d3a5a;
@@ -14,25 +16,7 @@ body{
     text-align: center;
     margin-bottom: 15px;
 }
-/* .hero:before{
-    content:"";
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    height: 10px;
-    background: linear-gradient(right, #0d3a5a);
-}
 
-.hero:after{
-    content:"";
-    position: absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    height: 10px;
-    background: linear-gradient(left,#fff);
-} */
 
 
 .hero h1{
@@ -94,8 +78,6 @@ body{
     color: #fff;
 }
 
-
-
 .projects{
     max-width: 990px;
     margin:0 auto;
@@ -105,9 +87,16 @@ body{
     display: grid;    
     grid-template-columns: 100%;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 40px;
     overflow:hidden;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1c1917;
+    
+    border:1px solid #115280;
+
 }
 
 .project-card-image{
@@ -116,17 +105,15 @@ body{
     overflow: hidden;
 }
 .project-card-image img{    
-    display: block;
+    display: flex;
     width:100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:contain;
     transition: transform 10s ease-in-out;
 }
 
 .project-card:hover img{
     transform: rotate(20deg) scale(1.4);
-
-
 }
 
 .project-card-text{
@@ -136,21 +123,23 @@ body{
 .project-card-text h3{
     margin:0;
     padding: 0;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 1.8rem;
+    font-family: monospace;
 
 }
 
 .project-card-text small{
-    color:#3d3b3b;
+    color:#1c1917;
     margin-top: 15px;
     
 }
 
 .project-card-text span{
     margin-right: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: underline;
+    color:#1c1917;
 }
 
 .tech-used-span{
@@ -184,5 +173,11 @@ body{
     }
     .hero h1{
         font-size:5rem;
+    }
+    .project-card-image{
+        border:1px solid gray;
+        /* max-width: 95%; */
+        object-fit: contain;
+        
     }
 }
