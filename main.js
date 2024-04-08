@@ -23,7 +23,8 @@ projects.forEach(project =>{
 
     clone.querySelector(".description").textContent=project.about
 
-    clone.querySelector(".primary-btn").href = project.github
+    clone.querySelector(".primary-btn").href = project.github;
+    
  
         
 

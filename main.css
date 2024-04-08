@@ -95,7 +95,7 @@ body{
     font-size: 18px;
     color: #1c1917;
     
-    border:1px solid #115280;
+    border:1px solid rgb(65, 63, 63);
 
 }
 
@@ -162,7 +162,20 @@ body{
     font-weight: 900;
 }
 
+.primary-live-btn{
+    background-color: #0d3a5a;
+    color:#fff;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 900;
+}
+
 .primary-btn:hover{
+    background-color: #115280;
+}
+.primary-live-btn:hover{
     background-color: #115280;
 }
 
@@ -176,8 +189,8 @@ body{
     }
     .project-card-image{
         border:1px solid gray;
-        /* max-width: 95%; */
-        object-fit: contain;
+        width: 99%;
+        object-fit: contain; 
         
     }
 }
