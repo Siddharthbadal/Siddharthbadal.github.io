@@ -38,17 +38,18 @@ header{
     margin-top: 35px;
     margin-bottom: 20px;
     min-height: 120px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
 }
 
 .heading{
     font-size: 48px;
-    animation: fade-in 0.5s;
+    animation: fade-in 2s;
     text-shadow: 1px 1px 2px #3f3f46;
 }
 
 .about{
     margin-left: 5px;
+    
 }
 .main{
     display: flex;
