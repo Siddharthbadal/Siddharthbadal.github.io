@@ -18,7 +18,7 @@
 
 body{   
     background-color: #fafaf9;
-    /* background-color: #f8fafc; */
+    // background-color: #f3f5fa;
     font-family: 'Inter', sans-serif;
     margin: auto;   
     max-width: 50%; 
@@ -26,9 +26,8 @@ body{
 
     display: flex;
     flex-direction: column;
-    
     color: #3f3f46;
-    /* box-shadow: 12px 12px 12px rgb(226, 229, 230); */
+    
 }
 
 header{
@@ -43,14 +42,14 @@ header{
 
 .heading{
     font-size: 48px;
-    animation: fade-in 2s;
+    animation: fade-in 3s;
     text-shadow: 1px 1px 2px #3f3f46;
 }
 
 .about{
-    margin-left: 5px;
-    
+    margin-left: 5px;    
 }
+
 .main{
     display: flex;
     flex-direction: column;
@@ -67,8 +66,10 @@ header{
     width: 90%;
     min-height: 90px;
     margin-bottom: 18px;
-    padding: 12px;
-    box-shadow: 2px 2px 2px rgb(226, 229, 230);
+    padding: 24px;
+    box-shadow: 0 4px 44px rgba(0,0,0,0.07);
+    animation: fade-in 0.4s 0.2s backwards;
+
     
 }
 .project--heading{
@@ -114,7 +115,6 @@ li{
     text-decoration: underline;
     text-shadow: 1px 1px 2px #3f3f46;
 }
-
 
 
 footer{
