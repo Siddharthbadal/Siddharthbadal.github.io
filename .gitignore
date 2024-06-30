@@ -2,3 +2,5 @@
 venv/
 blog-archive.txt
 .credentials/
+.vscode
+vscode 
