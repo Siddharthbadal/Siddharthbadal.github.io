@@ -55,6 +55,7 @@ header{
     margin-left: 5px;   
     font-size: 18px; 
     color: rgb(168 162 158);
+    line-height:0.65cm
 }
 
 .main{
@@ -80,7 +81,6 @@ header{
     box-shadow: 0 4px 44px rgba(0,0,0,0.07);
     animation: fade-in 0.4s 0.2s backwards;
     font-size: 18px;
-
     
 }
 .project--heading{
@@ -113,15 +113,12 @@ li{
     list-style: none;
 }
 
-
-
-
 .work{
     width: inherit;
     text-align: left;
     margin-left: 10px;
-    margin-top: 35px;
-    margin-bottom: 36px;
+    margin-top: 20x;
+    margin-bottom: 16px;
     min-height: 120px;
     letter-spacing: 1px;  
     color:rgb(214 211 209);
@@ -132,16 +129,23 @@ li{
     animation: fade-in 3s;
     text-shadow: 1px 1px 2px #3f3f46;
     color: rgb(214 211 209);
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .work-about{
     margin-left: 5px;   
     font-size: 24px; 
-    color: rgb(168 162 158);
+    // color: rgb(168 162 158);
+    color: rgb(120 113 108);
 }
+
+.work li{
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
 .contact{
-    margin-top: 10px;
+    margin-top: 4px;
     margin-bottom: 10px;
     
 }
