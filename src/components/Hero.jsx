@@ -1,0 +1,30 @@
+import ContactLinks from "./ContactLinks"
+
+
+const Hero = () => {
+  return (
+    <section className="bg-bgDark py-20 mb-0.5">
+    <div
+      className="max-w-7x h-[32vh] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
+    >
+      <div className="text-center">
+        <h1
+          className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl tracking-wider"
+        >
+           👋 I'm Siddharth badal.
+        </h1>
+        <p className="my-4 text-xl text-white">
+          I'm a freelance developer. And work with Python, SQL, and JavaScript.
+        </p>
+        <div className="md:ml-auto flex flex-row justify-center items-center mt-7">
+              
+              <ContactLinks />
+
+        </div>
+      </div>
+    </div>
+  </section>
+  )
+}
+
+export default Hero
