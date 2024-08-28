@@ -11,7 +11,7 @@ const Card = () => {
     {projects.map((project)=>(
       
       
-    <div className="max-w-md bg-white rounded overflow-hidden shadow-lg">
+    <div className="max-w-lg bg-slate-50 bg-opacity-100  rounded overflow-hidden shadow-lg">
         <img className="w-full h-64" src={project.image} alt="Sunset in the mountains"/>
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{project.title}</div>
@@ -33,7 +33,7 @@ const Card = () => {
         <button
             className="w-full align-middle select-none font-sans font-bold text-center uppercase transition-all text-xl py-3 px-6 border-b-2 border-l-2 border-r-2 bg-bgDark text-white shadow-md shadow-gray-900/10 hover:shadow-lg"
             type="button">
-            <a href={project.link} target="_blank">Read More</a>
+            <a href={project.link} target="_blank">View</a>
             </button>
     </div>
 

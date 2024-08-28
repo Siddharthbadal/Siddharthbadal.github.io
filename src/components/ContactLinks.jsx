@@ -7,7 +7,7 @@ const Contactas = () => {
                   href="https://www.aedin.com/in/siddharthbadal/"
                   className="text-bgDark bg-white rounded-md px-3 py-2 font-bold"
                   target="_blank"
-                  >LinkedIN
+                  >LinkedIn
                   </a>
                 <a
                   href="https://github.com/Siddharthbadal/"

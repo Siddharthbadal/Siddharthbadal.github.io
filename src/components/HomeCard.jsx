@@ -6,7 +6,7 @@ const HomeCard = () => {
       <div className="container-xl lg:container m-auto ">
         <div className="grid lg-grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-4 rounded-lg justify-center justify-self-center mx-auto">
           
-          <div className="bg-yellow-50 p-6 rounded-lg shadow-md">
+          <div className="bg-slate-50 p-6 rounded-lg shadow-md">
             <h2 className="text-2xl text-bgDark font-bold">Work</h2>
             <p className="mt-2 mb-4 text-bgDark">
                 ✔ Build projects in Python <br />
@@ -23,7 +23,7 @@ const HomeCard = () => {
               Skills
             </a> */}
           </div>
-          <div className="bg-yellow-50 p-6 rounded-lg shadow-md">
+          <div className="bg-slate-50  p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold text-bgDark">Skills</h2>
             <p className="mt-2 mb-4 text-bgDark">
               Python, SQL <br />

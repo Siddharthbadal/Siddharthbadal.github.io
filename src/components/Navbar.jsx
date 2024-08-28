@@ -8,24 +8,24 @@ const Navbar = () => {
           <div className="flex flex-1 items-center justify-between md:flex md:items-stretch md:justify-start ">
             
             <div className="">
-              <a href="/index.html" className="">              
-                <span className="text-white lg:text-3xl font-bold ml-2 text-2xl"
+              <a href="/" className="">              
+                <span className="text-white text-opacity-90 lg:text-3xl font-bold ml-2 text-2xl"
                   >
                     Siddharth
                   </span>
               </a>
             </div>
 
-            <div className="md:ml-auto">
+            {/* <div className="md:ml-auto">
               <div className="space-x-2">
                 <a
-                  href="/index.html"
-                  className="text-bgDark bg-white rounded-md px-3 py-2 font-bold sm:text-xl">
+                  href="/"
+                  className="text-bgDark bg-white bg-opacity-90 rounded-md px-3 py-2 font-bold sm:text-xl">
                   
                     Projects
                   </a>
               </div>
-            </div>
+            </div> */}
 
           </div>
 
