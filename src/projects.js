@@ -50,7 +50,7 @@ export default [
         "id": "4",
         "title": "Social Media Platform",
         "techs": "Django Bootstrap javaScript ",
-        "description": "Social media and study group platform in django with authentication. Users can create profiles, add details, like and comment and create study rooms and message other users. ",
+        "description": "Social media and study group platform in django with authentication. Users can create profiles, add details, like and comment, create study rooms and message other users. ",
 		    "image": image4,
         "link": "https://github.com/Siddharthbadal/DConnect-Social"
         
@@ -59,7 +59,7 @@ export default [
         "id": "5",
         "title": "Command Line Interface",
         "techs": "Python MySQL Typer ",
-        "description": "An interface built with python and mysql to manage university registrar data with a database. Using custom commands, Users can perform  various operations. ",
+        "description": "An interface built with python and mysql to manage registrar data of courses and students with a database. Using custom commands, Users can perform  various operations. ",
 		    "image": image5,
         "link": "https://github.com/Siddharthbadal/Course-Registrar"
         
@@ -68,7 +68,7 @@ export default [
         "id": "6",
         "title": "JavaScript & react Projects",
         "techs": "JavaScript React NextJS ",
-        "description": "Developed multiple javaScript projects. Trending Jobs with react where user can post jobs, text analysis with javascript, reviews app, and a feedback app.",
+        "description": "Developed multiple javaScript projects. Trending Jobs with react where user can post jobs, text analysis app, reviews app, and a feedback app in javascript.",
 		    "image": image6,
         "link": "https://github.com/Siddharthbadal/JavaScriptProjects "
         

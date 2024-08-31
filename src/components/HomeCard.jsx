@@ -12,9 +12,9 @@ const HomeCard = () => {
                 ✔ Build projects in Python <br />
                 ✔ Custom web apps development with django <br />
                 ✔ Rest API with Django rest Framework <br />
-                ✔ Data Processing and analysis with pandas, SQL and Excel <br />
+                ✔ Data Processing and analysis with pandas, SQL <br />
                 ✔ Database development with MySQL <br />
-                ✔ Frontend with JavaScript, NextJS
+                ✔ Frontend with JavaScript
             </p>
  
           </div>
