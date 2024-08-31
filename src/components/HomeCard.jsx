@@ -11,17 +11,12 @@ const HomeCard = () => {
             <p className="mt-2 mb-4 text-bgDark">
                 ✔ Build projects in Python <br />
                 ✔ Custom web apps development with django <br />
-                ✔ Data Analysis with SQL and pandas with visualization <br />
-                ✔ Data Processing tasks with pandas, SQL and Excel <br />
-                ✔ Database development and MySQL Admin <br />
-                ✔ Frontend with JavaScript
+                ✔ Rest API with Django rest Framework <br />
+                ✔ Data Processing and analysis with pandas, SQL and Excel <br />
+                ✔ Database development with MySQL <br />
+                ✔ Frontend with JavaScript, NextJS
             </p>
-            {/* <a
-              href="/jobs.html"
-              className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
-            >
-              Skills
-            </a> */}
+ 
           </div>
           <div className="bg-slate-50  p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold text-bgDark">Skills</h2>

@@ -11,10 +11,12 @@ const Hero = () => {
         <h1
           className="text-4xl font-extrabold text-white text-opacity-90  sm:text-5xl md:text-6xl tracking-wider"
         >
-           👋 I'm Siddharth badal.
+           👋 I'm Siddharth Badal.
         </h1>
-        <p className="my-4 text-xl text-white text-opacity-90">
-          I'm a freelance developer. And work with Python, SQL, and JavaScript.
+        <p className="my-2 text-xl text-white text-opacity-90">
+          I'm a freelance developer. I work with Python, SQL, and JavaScript.
+        <br />Available for freelancing projects. 
+
         </p>
         <div className="md:ml-auto flex flex-row justify-center items-center mt-7">
               

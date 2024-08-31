@@ -5,27 +5,18 @@ const Navbar = () => {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
 
-          <div className="flex flex-1 items-center justify-between md:flex md:items-stretch md:justify-start ">
+          <div className="flex flex-1 items-center justify-center md:flex md:items-stretch md:justify-start underline decoration-slate-100">
             
-            <div className="">
-              <a href="/" className="">              
-                <span className="text-white text-opacity-90 lg:text-3xl font-bold ml-2 text-2xl"
+            <div >
+              <a href="/" >              
+                <span className="text-white text-opacity-90 lg:text-2xl font-bold ml-2 text-xl"
                   >
                     Siddharth
                   </span>
               </a>
             </div>
 
-            {/* <div className="md:ml-auto">
-              <div className="space-x-2">
-                <a
-                  href="/"
-                  className="text-bgDark bg-white bg-opacity-90 rounded-md px-3 py-2 font-bold sm:text-xl">
-                  
-                    Projects
-                  </a>
-              </div>
-            </div> */}
+           
 
           </div>
 

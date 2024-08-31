@@ -5,6 +5,7 @@ import image4 from "./assets/images/socialmediaOne.png"
 import image5 from "./assets/images/cliOne.png"
 import image6 from "./assets/images/reviewsapp.png"
 import image7 from "./assets/images/sqlcasestudy.png"
+import image8 from "./assets/images/job-board.png"
 
 
 export default [
@@ -26,6 +27,16 @@ export default [
         "link": "https://github.com/Siddharthbadal/HR-Management-System"
         
       },
+      {
+        "id": "8",
+        "title": "Job Board in reactJS",
+        "techs": "JavaScript React Tailwind ",
+        "description": "Job board app allows user to add jobs, edit and delete job posts. Also user is allowed to apply for a job. project is work in progress.",
+		    "image": image8,
+        "link": "https://github.com/Siddharthbadal/JavaScriptProjects/tree/main/Jobs-Board-React "
+        
+      },
+      
 	  {
         "id": "3",
         "title": "ECommerce Rest API ",
@@ -57,7 +68,7 @@ export default [
         "id": "6",
         "title": "JavaScript & react Projects",
         "techs": "JavaScript React NextJS ",
-        "description": "Developed multiple javaScript projects. Job boards, Text analysis app, Trending Jobs where user can post jobs, and a feedback app.",
+        "description": "Developed multiple javaScript projects. Trending Jobs with react where user can post jobs, text analysis with javascript, reviews app, and a feedback app.",
 		    "image": image6,
         "link": "https://github.com/Siddharthbadal/JavaScriptProjects "
         
