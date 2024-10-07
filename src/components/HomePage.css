@@ -1,0 +1,17 @@
+.container{
+    margin-left: 120px;
+    
+}
+
+.main-text p{
+    margin-bottom: 7px;
+    color:text-neutral-400;
+}
+
+.main-text p > a{
+    font-style: italic;
+    
+    color: #2563eb;
+    font-weight: 500;
+}
+

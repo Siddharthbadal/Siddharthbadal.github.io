@@ -8,6 +8,9 @@ module.exports = {
       fontFamily:{
         sans: ['Inter','Roboto', 'sans-serif']
       },
+      container: {
+        center: true,
+      },
       gridTemplateColumns:{
         '70/30': '70% 28%'
       },

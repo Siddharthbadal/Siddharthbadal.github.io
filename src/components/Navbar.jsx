@@ -11,7 +11,7 @@ const Navbar = () => {
               <a href="/" >              
                 <span className="text-white text-opacity-90 lg:text-2xl font-bold ml-2 text-xl"
                   >
-                    Siddharth
+                    Sidd
                   </span>
               </a>
             </div>

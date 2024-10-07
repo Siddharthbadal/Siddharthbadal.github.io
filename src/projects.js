@@ -18,15 +18,7 @@ export default [
 		    "link": "  https://github.com/Siddharthbadal/djangoAutomationToolkit"      
         
       },
-      {
-        "id": "2",
-        "title": "Human Resource Management System",
-        "techs": "Django Bootstrap",
-        "description": "Full Stack project developed with django and bootstrap with messaging, validations, and authentication and custom admin panel.",
-        "image": image2,
-        "link": "https://github.com/Siddharthbadal/HR-Management-System"
-        
-      },
+      
       {
         "id": "8",
         "title": "Job Board in reactJS",
@@ -71,6 +63,15 @@ export default [
         "description": "Developed multiple javaScript projects. Trending Jobs with react where user can post jobs, text analysis app, reviews app, and a feedback app in javascript.",
 		    "image": image6,
         "link": "https://github.com/Siddharthbadal/JavaScriptProjects "
+        
+      },
+      {
+        "id": "2",
+        "title": "Human Resource Management System",
+        "techs": "Django Bootstrap",
+        "description": "Full Stack project developed with django and bootstrap with messaging, validations, and authentication and custom admin panel.",
+        "image": image2,
+        "link": "https://github.com/Siddharthbadal/HR-Management-System"
         
       },
 	  {

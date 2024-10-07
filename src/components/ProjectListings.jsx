@@ -3,7 +3,7 @@ import Card from './Card';
 
 const ProjectListings = () => {
   return (
-    <section className="bg-bgDark mt-0.5 px-4 py-10">
+    <section className="bg-slate-500 mt-0.5 px-4 py-10">
       <div className="container-xl lg:container m-auto">
         <h2 className="text-5xl font-bold text-white text-opacity-90 mb-6 text-center tracking-widest">
           Projects
