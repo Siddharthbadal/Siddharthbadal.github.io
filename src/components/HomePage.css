@@ -4,14 +4,20 @@
 }
 
 .main-text p{
-    margin-bottom: 7px;
+    margin-bottom: 4px;
     color:text-neutral-400;
 }
 
 .main-text p > a{
     font-style: italic;
-    
     color: #2563eb;
     font-weight: 500;
 }
 
+span{
+    margin-left: 9px;
+}
+
+.contacts p{
+    margin-bottom: 2px;
+}
