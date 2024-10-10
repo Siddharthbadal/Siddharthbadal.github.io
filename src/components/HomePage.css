@@ -18,6 +18,12 @@ span{
     margin-left: 9px;
 }
 
+span a{
+    
+    font-style: italic;
+    color:#2563eb
+}
+
 .contacts p{
     margin-bottom: 2px;
 }
