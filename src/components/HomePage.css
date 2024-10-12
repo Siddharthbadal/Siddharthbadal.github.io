@@ -9,7 +9,7 @@
 }
 
 .main-text p > a{
-    font-style: italic;
+    
     color: #2563eb;
     font-weight: 500;
 }
@@ -19,11 +19,14 @@ span{
 }
 
 span a{
-    
-    font-style: italic;
     color:#2563eb
 }
 
-.contacts p{
+.contacts{
     margin-bottom: 2px;
+    margin-top: 9px;
+}
+.contacts p{
+    margin-bottom: 1px;
+    
 }

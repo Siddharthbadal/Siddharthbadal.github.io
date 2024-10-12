@@ -1,6 +1,5 @@
 import { Link } from "react-feather"
 import "./HomePage.css"
-import ProjectsList from "./ProjectsList"
 
 const HomePage = () => {
   return (
@@ -13,25 +12,36 @@ const HomePage = () => {
             
             <hr className="mb-7 w-3/4"/>
             <div className="main-text text-neutral-700">                
-                <p>▪ I am a Tech Freelancer. I mainly work with Python, JavaScript and SQL.</p>
-                <p>▪ Have completed multiple development and data analysis projects.</p>                
-                <p>▪ I work with Django and Django rest Framework and SQL. Have also started to work with fastAPI and NextJS.</p>
+                <p>▪ I am a self taught tech Freelancer. Mainly work with Python, JavaScript and SQL.</p>
+                <p>▪ Also do data related tech and non technical tasks.</p>
+                <p>▪ Have completed multiple web development and data analysis projects.</p>                
+                <p>▪ I work with Django, Django rest Framework and SQL. Have also started to work with fastAPI and NextJS.</p>
+                <p>▪ Also spending sometime learning C++ and data structures and algorithms. [Which is hard] </p> <br />
                 <p>▪ My work includes. <br /> 
                       <span>- Building custom web apps with django </span> <br />
-                      <span>- Rest api development </span> <br />
-                      <span>- Data analysis with sql </span>  <br /> 
-                      <span>- Scraping and scripting with python </span> <br />                
+                      <span>- Building projects with HTML, CSS and JavaScript</span> <br />
+                      
+                      <span>- Rest Api development </span> <br />
+                      <span>- Data analysis with SQL, and Python </span>  <br /> 
+                      <span>- Scraping and scripting with Python </span> <br />                
                       <span>- Data related work in python and excel</span>
                 </p>
                 
                 <p >▪ This is my 
                     <a href="https://github.com/Siddharthbadal/" target="_blank" className="text-blue-600 font-semibold italic"> Github</a>.
-                </p>
-                  <ProjectsList />
+                </p> <br />
+                  
                 <p>▪ My other skills include: <span className="italic">
-                AWS S3, RDS, Linux, Docker, redis, celery, pandas, database developement
+                Git, Github, AWS S3, RDS, Linux, Docker, Pandas, Database developement
                 </span> </p>
-                <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p> <br />
+                <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p>
+
+                <p className="text-gray-500 font-bold"> ▪ Avilable to work, If you are looking for someone to do your technical or non techincal work online.
+                </p>
+
+                <p> ▪ Like to travel when I can.  Watch good movies. Read random blogs or waste time on twitter. </p>
+
+                
                 
                 <div className="contacts">
                       <p>LinkedIn - <a  href="https://www.linkedin.com/in/siddharthbadal/" target="_blank">siddharthbadal</a></p>
