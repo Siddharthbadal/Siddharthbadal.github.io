@@ -1,5 +1,5 @@
-import { Link } from "react-feather"
 import "./HomePage.css"
+import ProjectsList from "./ProjectsList"
 
 const HomePage = () => {
   return (
@@ -12,34 +12,34 @@ const HomePage = () => {
             
             <hr className="mb-7 w-3/4"/>
             <div className="main-text text-neutral-700">                
-                <p>▪ I am a self taught tech Freelancer. Mainly work with Python, JavaScript and SQL.</p>
-                <p>▪ Also do data related tech and non technical tasks.</p>
-                <p>▪ Have completed multiple web development and data analysis projects.</p>                
-                <p>▪ I work with Django, Django rest Framework and SQL. Have also started to work with fastAPI and NextJS.</p>
-                <p>▪ Also spending sometime learning C++ and data structures and algorithms. [Which is hard] </p> <br />
-                <p>▪ My work includes. <br /> 
-                      <span>- Building custom web apps with django </span> <br />
-                      <span>- Building projects with HTML, CSS and JavaScript</span> <br />
+                <p>▪ I am a self taught developer and tech Freelancer. Mainly work with Python, JavaScript and SQL.</p>          
+                <p>▪ Have completed multiple web development and data analysis projects. Also do data related tech and non technical tasks.</p>                
+                <p>▪ Work with Django, Django rest Framework and SQL. Have also started to work with fastAPI and NextJS.</p> <br />
+                <p>▪ What I do: <br /> 
+                      <span>- Building custom web apps with django                           
+                        </span> <br />
+                      <span>- Building projects with React & NextJS</span> <br />
                       
                       <span>- Rest Api development </span> <br />
-                      <span>- Data analysis with SQL, and Python </span>  <br /> 
+                      <span>- Data analysis with SQL and Python </span>  <br /> 
                       <span>- Scraping and scripting with Python </span> <br />                
-                      <span>- Data related work in python and excel</span>
+                      <span>- Data related work in Excel</span>
                 </p>
                 
                 <p >▪ This is my 
                     <a href="https://github.com/Siddharthbadal/" target="_blank" className="text-blue-600 font-semibold italic"> Github</a>.
-                </p> <br />
-                  
-                <p>▪ My other skills include: <span className="italic">
+                </p> 
+                <ProjectsList />
+                  <br />
+                {/* <p>▪ My other skills include: <span className="italic">
                 Git, Github, AWS S3, RDS, Linux, Docker, Pandas, Database developement
-                </span> </p>
+                </span> </p> */}
                 <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p>
-
-                <p className="text-gray-500 font-bold"> ▪ Avilable to work, If you are looking for someone to do your technical or non techincal work online.
+                
+                <p> ▪ Like to travel whenever I can. Watch good movies. little bit of reading and waste time on twitter. </p>
+                <p className="text-gray-600 font-bold"> ▪ Avilable. Let me know If you are looking to complete your technical or non techincal tasks.
                 </p>
 
-                <p> ▪ Like to travel when I can.  Watch good movies. Read random blogs or waste time on twitter. </p>
 
                 
                 
@@ -49,6 +49,7 @@ const HomePage = () => {
                       <p>twitter - <a href="https://x.com/siddbadal" target="_blank">@siddbadal</a></p>
                       <p>Email - <a href="mailto:sidharth.badal@gmail.com">sidharth.badal@gmail.com</a></p>
                 </div>
+                <br />
             </div>       
         
         

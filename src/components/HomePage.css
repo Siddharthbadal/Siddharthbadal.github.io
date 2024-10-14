@@ -19,9 +19,12 @@ span{
 }
 
 span a{
-    color:#2563eb
+    color:#5d6063;
+    font-weight: bold;
 }
-
+span a:hover{
+    font-style: italic;
+}
 .contacts{
     margin-bottom: 2px;
     margin-top: 9px;
