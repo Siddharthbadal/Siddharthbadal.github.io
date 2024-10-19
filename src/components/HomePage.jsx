@@ -4,40 +4,43 @@ import ProjectsList from "./ProjectsList"
 const HomePage = () => {
   return (
     <>
-        <div className="container lg:mx-auto lg:w-3/4 sm:w-3/4 ">
+        <div className="container lg:mx-auto lg:w-3/4 sm:w-3/4 shadow-lg">
         
         <div className="flex flex-col justify-left items-left flex-wrap mt-12 ml-12 lg:w-3/4 ">
             
-            <h1 className="lg:text-4xl text-blue-600 text-3xl font-extrabold">Siddharth Badal</h1>
+            <h1 className="lg:text-4xl text-blue-600 text-3xl font-extrabold mt-1">Siddharth Badal</h1>
             
-            <hr className="mb-7 w-3/4"/>
+            <hr className="mb-7 w-3/4 border"/>
             <div className="main-text text-neutral-700">                
-                <p>▪ I am a self taught developer and tech Freelancer. Mainly work with Python, JavaScript and SQL.</p>          
-                <p>▪ Have completed multiple web development and data analysis projects. Also do data related tech and non technical tasks.</p>                
-                <p>▪ Work with Django, Django rest Framework and SQL. Have also started to work with fastAPI and NextJS.</p> <br />
+                <p>▪ I am a self taught developer and tech Freelancer. Mainly work with Python, JavaScript and SQL.</p>                          
+                <p>▪ Work with Django, Django rest Framework, JavaScript and SQL. Have also started to work with fastAPI and NextJS.</p> <br />
                 <p>▪ What I do: <br /> 
-                      <span>- Building custom web apps with django                           
-                        </span> <br />
-                      <span>- Building projects with React & NextJS</span> <br />
+                      <span>- Building custom web apps with Django. </span> <br />
+                      <span>- Building projects with javaScript & NextJS</span> <br />
+                      <span>- NextJS with Strapi for web developmet.</span> <br />
                       
-                      <span>- Rest Api development </span> <br />
+                      <span>- Rest Api development with Django </span> <br />
                       <span>- Data analysis with SQL and Python </span>  <br /> 
-                      <span>- Scraping and scripting with Python </span> <br />                
-                      <span>- Data related work in Excel</span>
-                </p>
+                      {/* <span>- Scraping and scripting and other data realted tasks with Python </span> <br />                                       */}
+                </p> 
                 
                 <p >▪ This is my 
                     <a href="https://github.com/Siddharthbadal/" target="_blank" className="text-blue-600 font-semibold italic"> Github</a>.
                 </p> 
+
+
+
                 <ProjectsList />
                   <br />
-                {/* <p>▪ My other skills include: <span className="italic">
-                Git, Github, AWS S3, RDS, Linux, Docker, Pandas, Database developement
-                </span> </p> */}
-                <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p>
-                
+
+
+
+                <p>▪ Other skills include:
+                Git, Github, AWS S3, RDS, Linux, Docker, Pandas
+                </p>
+                {/* <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p> */}
                 <p> ▪ Like to travel whenever I can. Watch good movies. little bit of reading and waste time on twitter. </p>
-                <p className="text-gray-600 font-bold"> ▪ Avilable. Let me know If you are looking to complete your technical or non techincal tasks.
+                <p className="text-gray-600 font-bold"> ▪ Avilable to work on technical and non technical projects. 
                 </p>
 
 
