@@ -1,14 +1,19 @@
+import Contacts from "./Contacts"
 import "./HomePage.css"
 import ProjectsList from "./ProjectsList"
 
 const HomePage = () => {
   return (
     <>
-        <div className="container lg:mx-auto lg:w-3/4 sm:w-3/4 shadow-lg">
+        <div className="container lg:mx-auto lg:w-3/4 sm:w-3/4 shadow-lg shadow-yellow-200 mb-5">
         
         <div className="flex flex-col justify-left items-left flex-wrap mt-12 ml-12 lg:w-3/4 ">
             
-            <h1 className="lg:text-4xl text-blue-600 text-3xl font-extrabold mt-1">Siddharth Badal</h1>
+            <h1 className="lg:text-4xl text-blue-600 text-3xl font-extrabold mt-1">
+              <span className="bg-yellow-100 rounded-lg px-2">
+                Siddharth Badal
+              </span>
+              </h1>
             
             <hr className="mb-7 w-3/4 border"/>
             <div className="main-text text-neutral-700">                
@@ -35,23 +40,16 @@ const HomePage = () => {
 
 
 
-                <p>▪ Other skills include:
-                Git, Github, AWS S3, RDS, Linux, Docker, Pandas
+                <p>▪ Other skills : Git, Github, AWS S3, RDS, Linux, Docker, Pandas
                 </p>
                 {/* <p>▪ Prior to freelancing, I have worked for over five years in data analysis and business operations. </p> */}
-                <p> ▪ Like to travel whenever I can. Watch good movies. little bit of reading and waste time on twitter. </p>
+                <p> ▪ Like to travel whenever I can. Watch good movies. little bit of reading and twitter. </p>
                 <p className="text-gray-600 font-bold"> ▪ Avilable to work on technical and non technical projects. 
                 </p>
+               
 
+                <Contacts />
 
-                
-                
-                <div className="contacts">
-                      <p>LinkedIn - <a  href="https://www.linkedin.com/in/siddharthbadal/" target="_blank">siddharthbadal</a></p>
-                      <p>Github - <a href="https://github.com/Siddharthbadal/" target="_blank">siddharthbadal</a></p>
-                      <p>twitter - <a href="https://x.com/siddbadal" target="_blank">@siddbadal</a></p>
-                      <p>Email - <a href="mailto:sidharth.badal@gmail.com">sidharth.badal@gmail.com</a></p>
-                </div>
                 <br />
             </div>       
         

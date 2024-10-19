@@ -10,7 +10,7 @@ export default [
         
       },
       {
-        "id": "5",
+        "id": "2",
         "title": "Tasks Toolkit",
         "techs": "Django",
         "description": "To send bulk emails, export import data and image compression with ",        
@@ -18,7 +18,7 @@ export default [
         
       },
       {
-        "id": "2",
+        "id": "3",
         "title": "RestAPI",
         "techs": "Django Rest Framework",
         "description": "development with ",        
@@ -26,7 +26,7 @@ export default [
         
       },
       {
-        "id": "3",
+        "id": "4",
         "title": "Social Media Platform ",
         "techs": "Django and JavaScript",
         "description": " and stuents groups app and management portal in ",        
@@ -34,7 +34,7 @@ export default [
         
       },
       {
-        "id": "4",
+        "id": "5",
         "title": "Games Club",
         "techs": "reactJs and TailwindCSS",
         "description": "App in with filters, search in ",        
@@ -42,7 +42,7 @@ export default [
         
       },
       {
-        "id": "5",
+        "id": "6",
         "title": "Data Analysis ",
         "techs": "SQL and Python",
         "description": "case studies with database development using ",        
