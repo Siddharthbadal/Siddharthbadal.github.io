@@ -6,9 +6,9 @@ import Work from "./Work"
 const HomePage = () => {
   return (
     <>
-        <div className="bg-yellow-100/50 container lg:mx-auto lg:w-3/4 sm:w-3/4 shadow-lg shadow-yellow-400 tracking-wide">
+        <div className="sm:bg-yellow-100/50 lg:bg-yellow-100/50 container md:mx-auto sm:mx-auto lg:mx-auto lg:w-3/4 sm:w-3/4 lg:shadow-lg shadow-yellow-400 tracking-wide">
         
-        <div className=" flex flex-col justify-left items-left flex-wrap  ml-14 lg:w-3/4 mb-1 ">
+        <div className=" flex flex-col justify-left items-left flex-wrap  lg:ml-14 lg:w-3/4 mb-1 ">
             
             <h1 className="  lg:text-4xl text-blue-600 text-3xl font-extrabold mt-12">
               <span className=" tracking-widest">

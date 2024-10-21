@@ -1,6 +1,14 @@
+html, body {
+  min-height: 100%;
+  min-width: none;
+  
+}
+
 .container{
     margin-left: 120px;
     font-family: "Inter", sans-serif;
+    
+    
 }
 
 .main-text p{
