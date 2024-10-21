@@ -4,7 +4,7 @@ import "./index.css"
 
 const App = () => {
   return (
-    <div >
+    <div className="bg-slate-200">
         <HomePage />      
     </div>
   )

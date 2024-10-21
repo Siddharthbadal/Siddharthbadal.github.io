@@ -1,10 +1,10 @@
 .container{
     margin-left: 120px;
-    
+    font-family: "Inter", sans-serif;
 }
 
 .main-text p{
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     color:text-neutral-400;
 }
 
@@ -22,4 +22,44 @@ span a{
     color:#5d6063;
     font-weight: bold;
 }
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;  
+       
+    }
+  }
+  
+  .fadeInUp-animation-heading {
+    animation: 2s fadeInUp;
+  }
+
+ 
+  @keyframes bgColor {
+    0% {
+                  
+    }
+    100% {
+      background-color: #fef08a;
+      
+    }
+  }
+
+.animation-text-3{
+    animation: 5s bgColor;
+}
+
+.animation-text-4{
+  animation: 12s bgColor;
+}
+
+.animation-text-5{
+  animation: 15s bgColor;
+}
+
 

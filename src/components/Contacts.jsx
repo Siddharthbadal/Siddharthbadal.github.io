@@ -6,7 +6,7 @@ export default function Contacts(){
             {contacts.map(contact => (
 
                 <p className="text-xl ">  
-            <a  href={contact.link} target="_blank" className="bg-yellow-100 px-2 mb-2 rounded-md hover:bg-yellow-300 delay-500" >
+            <a  href={contact.link} target="_blank" className="animation-text-5 px-2 mb-2 rounded-md hover:bg-yellow-200 delay-300 tracking-widest" >
             {contact.title}
             </a>
         </p>

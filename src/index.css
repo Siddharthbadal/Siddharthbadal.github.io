@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color:"bg-slate-500";
-    background-color: "#fef08a";
+html{
+        background-color: "#fef08a";
+        background-color: "red";
 }

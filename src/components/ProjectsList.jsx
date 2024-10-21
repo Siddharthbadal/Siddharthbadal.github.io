@@ -5,7 +5,7 @@ const ProjectsList = () => {
   
   return (
     
-    <div>
+    <div className='mt-2'>
       <ProjectCard  />
     </div>
   )
